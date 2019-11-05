@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_palabras"
+    tools:context=".Instrucciones">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="497dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:alpha=".8"
+        android:background="#3D77B7"
+        android:padding="8dp"
+        android:text="FlasCards es un método que ayuda a los niños a aprender a leer. Se recomienda utilizar esta aplicación con la ayuda y tutela de un adulto.  Instrucciones: El método se divide en dos secciones, la practica y la evaluación.   PRACTICA En la practica vendrán una serie de tarjetas con el audio de lo que dice dicha tarjeta, el niño podrá interactuar con ella unos segundos y desaparecerá. Se le debe mostrar un nivel de practica por lo menos unas tres veces dejando un lapso de unos 5 o 10 minutos entre cada una, después podrá pasar a la evaluación  EVALUACION Dentro de evaluación vendrán las mismas tarjetas pero ahora sin sonido, al desaparecer la palabra, el niño tendrá que decir que decía, una  ves que le diga pulsara en la flecha de siguiente y seleccionara una palomita si lo dijo bien, o una tachita si no lo dijo. "
+        android:textColor="#ffffffff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581"
+        tools:background="#3D77B7" />
+
+    <ImageButton
+        android:id="@+id/btnRegresar"
+        android:layout_width="76dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/regresar" />
+</android.support.constraint.ConstraintLayout>

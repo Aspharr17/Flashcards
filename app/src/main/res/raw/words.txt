@@ -1,0 +1,9 @@
+mamá;Perro;ojo;caminar;gorra;tele;
+Papá;papá;mano;correr;pijama;reloj;
+    ;Hermano;pie;sentarse;zapatos;mesa;
+    ;Mamá;brazo;reir;tenis;pared;
+    ;Gato;cabeza;leer;pelota;cocina;
+    ;Hermana;boca;dormir;vestido;puerta;
+    ;       ;       ;beber;
+    ;       ;       ;saltar;
+
